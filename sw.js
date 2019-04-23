@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-//cache
+//caches
 const cacheName = 'v1';
 
 const cacheAssets = [
