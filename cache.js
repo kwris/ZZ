@@ -1,37 +1,49 @@
-const CacheName = 'v1';
+const cacheName = 'v1';
 
 const cacheAssets = [
-'index.html'	
+  'index.html',
+   'sw.js',
+  'bm.jpg',
+ 'ldg.png',
+'her1.jpg',
+'HH2013.jpg',	
 ];
 
-//call install event
+// Call Install Event
 self.addEventListener('install', e => {
-	console.log('Service Worker: Installed');
-	e.waitUntil(
-	caches
-	.open(cacheName)
-	.then(cache => {
-		console.log('Service Worker: Caching Files')
-		cache.addAll(cacheAssets);
-	})
-	.then(() => self.skipWaiting())
-	);
-  });
+  console.log('Service Worker: Installed');
 
-//call activate event
+  e.waitUntil(
+    caches
+      .open(cacheName)
+      .then(cache => {
+        console.log('Service Worker: Caching Files');
+        cache.addAll(cacheAssets);
+      })
+      .then(() => self.skipWaiting())
+  );
+});
+
+// Call Activate Event
 self.addEventListener('activate', e => {
-	console.log('Service Worker: Activated');
-	//remove unwanted caches
-	e.waitUntill(
-	caches.keys().then(catcheNames => {
-	return Promise.all(
-	catcheNames.map(cache => {
-	if (cache !== cacheNames){
-	console.log('Service Worker: Clearing Old Cache');
-	return caches.delete(cache);
-	}
-	})
-	);
-	})	
-	);
-}); 
+  console.log('Service Worker: Activated');
+  // Remove unwanted caches
+  e.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cache => {
+          if (cache !== cacheName) {
+            console.log('Service Worker: Clearing Old Cache');
+            return caches.delete(cache);
+          }
+        })
+      );
+    })
+  );
+});
+
+// Call Fetch Event
+self.addEventListener('fetch', e => {
+  console.log('Service Worker: Fetching');
+  e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
+});
