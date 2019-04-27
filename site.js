@@ -1,4 +1,4 @@
-const cacheName = 'v2';
+const cacheNam = 'v2';
 
 // Call Install Event
 self.addEventListener('install', e => {
@@ -10,10 +10,10 @@ self.addEventListener('activate', e => {
   console.log('Service Worker: Activated');
   // Remove unwanted caches
   e.waitUntil(
-    caches.keys().then(cacheNames => {
+    caches.keys().then(cacheNams => {
       return Promise.all(
-        cacheNames.map(cache => {
-          if (cache !== cacheName) {
+        cacheNams.map(cache => {
+          if (cache !== cacheNam) {
             console.log('Service Worker: Clearing Old Cache');
             return caches.delete(cache);
           }
