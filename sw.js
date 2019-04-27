@@ -23,7 +23,6 @@ fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'cors'})
   });
 
 //BeforeInstallPrompt event
- <script>
     let deferredPrompt;
 
     window.addEventListener('beforeinstallprompt', function(event) {
@@ -51,4 +50,4 @@ fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'cors'})
         });
     });
 
-    </script>
+   
