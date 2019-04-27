@@ -10,5 +10,9 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+//Fetch event
+self.addEventListener('fetch', function(e){
+
+});
 
 
