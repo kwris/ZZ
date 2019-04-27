@@ -23,7 +23,7 @@ fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'cors'})
   });
 
 //BeforeInstallPrompt event
-    let deferredPrompt;
+  /*  let deferredPrompt;
 
     window.addEventListener('beforeinstallprompt', function(event) {
       // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -50,4 +50,4 @@ fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'cors'})
         });
     });
 
-   
+   */
