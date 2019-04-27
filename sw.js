@@ -1,4 +1,4 @@
-//register service worker
+/* //register service worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('sw.js').then(function(registration) {
@@ -10,5 +10,9 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-
+*/
+//call install event
+self.addEventListener('install', e => {
+	console.log('Service Worker: Installed');
+  });
 
