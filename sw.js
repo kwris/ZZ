@@ -10,9 +10,15 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-//Fetch event
-self.addEventListener('fetch', function(e){
-
-});
-
+//Fetch request
+fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'ZZ'})
+  .then(function(response) {
+    return response.text();
+  })
+  .then(function(text) {
+    console.log('Request successful', text);
+  })
+  .catch(function(error) {
+    log('Request failed', error)
+  });
 
