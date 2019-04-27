@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=index.html",
+  "start_url": "/ZZ/?source=index.html",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "https://kwris.github.io/ZZ/",
