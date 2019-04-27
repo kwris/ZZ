@@ -19,6 +19,6 @@ fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'ZZ'})
     console.log('Request successful', text);
   })
   .catch(function(error) {
-    log('Request failed', error)
+    console.log('Request failed', error)
   });
 
