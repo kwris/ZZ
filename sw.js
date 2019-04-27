@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 //Fetch request
-fetch('https://kwris.github.io/ZZ/ver_1/manifest.json', {mode: 'cors'})
+fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'cors'})
   .then(function(response) {
     return response.text();
   })
