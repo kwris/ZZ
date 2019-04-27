@@ -72,7 +72,7 @@ self.addEventListener('fetch', e => {
   e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
 });
 
-const cacheName = 'v2';
+
 
 // Call Install Event
 self.addEventListener('install', e => {
