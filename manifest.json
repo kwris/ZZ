@@ -1,6 +1,6 @@
 {
-  "short_name": "Maps",
-  "name": "Google Maps",
+  "short_name": "Tribute page",
+  "name": "Hermann Huppen tribute page",
   "icons": [
     {
       "src": "/images/icons-192.png",
@@ -13,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/maps/?source=pwa",
+  "start_url": "ZZ/",
   "background_color": "#3367D6",
   "display": "standalone",
-  "scope": "/maps/",
+  "scope": "/ZZ/",
   "theme_color": "#3367D6"
 }
