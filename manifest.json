@@ -3,18 +3,18 @@
   "name": "Hermann Huppen tribute page",
   "icons": [
     {
-      "src": "icons-192.png",
+      "src": "ZZ/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icons-512.png",
+      "src": "ZZ/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/index.html",
-  "background_color": "#3367D6",
+  "start_url": "/.",
+  "background_color": "#ccc",
   "display": "standalone",
   "scope": "/ZZ/",
   "theme_color": "#3367D6"
