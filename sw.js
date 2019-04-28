@@ -25,14 +25,13 @@ fetch('https://kwris.github.io/ZZ/manifest.json', {mode: 'cors'})
 const cacheName = 'v1';
 
 const cacheAssets = [
-  '/',
-  '/index.html',
-   '/sw.js',
-  '/cache.js',
-  '/bm.jpg',
- '/ldg.png',
-'/her1.jpg',
-'/HH2013.jpg'	
+  'index.html',
+   'sw.js',
+  'cache.js',
+  'bm.jpg',
+ 'ldg.png',
+'her1.jpg',
+'HH2013.jpg'	
 ];
 
 // Call Install Event
