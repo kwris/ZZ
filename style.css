@@ -91,6 +91,8 @@ h2 {
 }
 @media(max-width: 368px) {
   #footer{
+    display:flex;
+    flex-wrap: wrap;
     margin-top: 50px;
   }
 }
