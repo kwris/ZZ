@@ -85,7 +85,9 @@ h2 {
 }
 #footer {
   text-align: center;
-  text-decoration-line: none;
+}
+#biography-link, #tribute-link {
+  text-decoration: none;
 }
 @media(max-width: 368px) {
   #footer{
