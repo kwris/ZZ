@@ -86,3 +86,8 @@ h2 {
 #footer {
   text-align: center;
 }
+@media(min-width: 368px) {
+  #footer{
+    margin-top: 10px;
+  }
+}
