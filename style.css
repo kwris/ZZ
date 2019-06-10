@@ -37,6 +37,7 @@ body, #main {
 p, li {
   line-height: 20px; 
   font-family: Arial, Helvetica, sans-serif;
+  text-indent: 50px;
 }
 #tribute-info {
   height: 600px;
