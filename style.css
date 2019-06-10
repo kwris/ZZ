@@ -89,7 +89,7 @@ h2 {
 #biography-link, #tribute-link {
   text-decoration-line: none;
 }
-@media(max-width: 368px) {
+@media(max-width: 468px) {
   #footer{
     display:flex;
     flex-wrap: wrap;
