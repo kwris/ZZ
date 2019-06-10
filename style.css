@@ -85,7 +85,7 @@ h2 {
 }
 #footer {
   text-align: center;
-  text-decoration: none;
+  text-decoration-line: none;
 }
 @media(max-width: 368px) {
   #footer{
