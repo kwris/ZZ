@@ -98,7 +98,7 @@ h2 {
 @media(max-width: 468px) {
   #footer{
     display: block;
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
   }
   #img-caption {
@@ -110,5 +110,8 @@ h2 {
   text-align: center;
   line-height: 1.5em; 
 }
+  h2 {
+  margin-top: 5px;
+  }
 }
 
