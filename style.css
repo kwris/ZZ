@@ -99,7 +99,7 @@ h2 {
 @media(max-width: 468px) {
   #footer{
     display: block;
-    margin-top: 150px;
+    margin-top: 250px;
   }
   #img-caption {
   margin-bottom: 5px;
