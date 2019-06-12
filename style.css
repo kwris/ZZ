@@ -14,7 +14,7 @@ body, #main {
 #title {
   font-size: 40px;
   text-align: center;
-  line-height: 60px; 
+  line-height: 1.5em; 
 }
 #img-div {
   margin: auto;
@@ -37,7 +37,6 @@ body, #main {
   text-align: center;
 }
 p, li {
-  line-height: 20px; 
   /*font-family: Arial, Helvetica, sans-serif;*/
   font-family: 'Rubik', sans-serif;
   /*text-indent: 50px;*/
