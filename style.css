@@ -100,7 +100,7 @@ h2 {
   #footer{
     display:flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 150px;
   }
   #img-caption {
   margin-bottom: 5px;
