@@ -95,7 +95,7 @@ h2 {
 #biography-link, #tribute-link {
   text-decoration-line: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   #footer{
     display: block;
     margin-top: 80px;
