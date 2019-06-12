@@ -18,6 +18,7 @@ body, #main {
 }
 #img-div {
   margin: auto;
+  padding: 2px;
 }
 #im1 {
   max-width: 100%; 
@@ -101,4 +102,7 @@ h2 {
     flex-wrap: wrap;
     margin-top: 50px;
   }
+}
+@media(max-width: 468px) {
+
 }
