@@ -98,10 +98,11 @@ h2 {
 @media(max-width: 468px) {
   #footer{
     display: block;
-    margin-top: 250px;
+    margin-top: 50px;
+    text-align: center;
   }
   #img-caption {
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   text-align: center;
  }
 #title {
