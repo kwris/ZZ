@@ -98,8 +98,7 @@ h2 {
 }
 @media(max-width: 468px) {
   #footer{
-    display:flex;
-    flex-wrap: wrap;
+    display: block;
     margin-top: 150px;
   }
   #img-caption {
